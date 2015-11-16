@@ -36,7 +36,6 @@ class Mutt < Formula
   option "with-ignore-thread-patch", "Apply ignore-thread patch"
   option "with-pgp-verbose-mime-patch", "Apply PGP verbose mime patch"
   option "with-confirm-attachment-patch", "Apply confirm attachment patch"
-  option "with-sidebar-patch", "Apply sidebar patch"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build

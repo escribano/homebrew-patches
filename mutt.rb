@@ -42,6 +42,7 @@ class Mutt < Formula
   option "with-s-lang", "Build against slang instead of ncurses"
   option "with-ignore-thread-patch", "Apply ignore-thread patch"
   option "with-confirm-attachment-patch", "Apply confirm attachment patch"
+  option "with-sidebar-patch", "Apply sidebar patch"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
