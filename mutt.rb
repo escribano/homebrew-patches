@@ -72,7 +72,7 @@ class Mutt < Formula
 
   patch do
     url "https://raw.githubusercontent.com/escribano/mutt-sidebar-patch/master/mutt-sidebar.patch"
-    sha1 "bdf52d707ae9f583d1d601102f9a1af5b226399a"
+    sha1 "1e151d4ff3ce83d635cf794acf0c781e1b748ff1"
   end if build.with? "sidebar-patch"
 
 
