@@ -71,8 +71,11 @@ class Mutt < Formula
   end
 
   patch do
-    url "https://raw.githubusercontent.com/escribano/mutt-sidebar-patch/master/mutt-sidebar.patch"
-    sha1 "1e151d4ff3ce83d635cf794acf0c781e1b748ff1"
+    #url 'http://lunar-linux.org/~tchan/mutt/patch-1.5.24.sidebar.20150917.txt'
+    url 'https://raw.githubusercontent.com/escribano/patches/patch-1.5.24.sidebar.20150917.txt'
+    sha256 '66441edf056032119f854fc5ee86c73eece8b95dc998c0cfae5ed05b0b035070'
+    #url "https://raw.githubusercontent.com/escribano/mutt-sidebar-patch/master/mutt-sidebar.patch"
+    #sha1 "1e151d4ff3ce83d635cf794acf0c781e1b748ff1"
   end if build.with? "sidebar-patch"
 
 
