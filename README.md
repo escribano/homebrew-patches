@@ -6,8 +6,8 @@ My "taps" for Mac Homebrew formulae which have patches not accepted by homebrew/
 
 You can access this repository using `brew tap`:
 
-    brew tap kevwil/patches
-    brew install ...
+    brew tap escribano/patches
+    brew install escribano/mutt
 
 Since these formulae will likely have collisions with standard homebrew/homebrew formulae, you can:
 
